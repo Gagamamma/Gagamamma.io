@@ -1,0 +1,67 @@
+
+header {
+  grid-area: header;
+
+  display: grid;
+
+
+
+}
+
+aside{
+  grid-area: main;
+
+  display: grid;
+  }
+
+main {
+  grid-area: main;
+  display: grid;
+}
+
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 100%;
+
+  grid-template-areas:
+  "header"
+  "nav"
+  "main"
+  "footer";
+}
+
+ @media only screen and (max-width: 1024px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+  }
+
+
+main{
+
+}
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    .lådor div{
+    width: 100%;
+    height: 25%;
+    }
+
+header{
+
+}
+
+  }
+
+  @media only screen and (max-width: 600px){
+
+    }
