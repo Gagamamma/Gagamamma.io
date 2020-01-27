@@ -9,11 +9,7 @@ header {
 
 }
 
-aside{
-  grid-area: main;
 
-  display: grid;
-  }
 
 main {
   grid-area: main;
