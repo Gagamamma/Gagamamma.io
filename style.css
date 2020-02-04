@@ -77,6 +77,7 @@ nav{
   color: grey;
   font-size: 30px;
   padding-top: 20px;
+
   }
 
 
@@ -95,6 +96,9 @@ padding:40px;
   width: 920px;
   padding:40px;
   }
+#amkörkort{
+  padding: 40px;
+}
 
 footer{
   background-color: #fff;
@@ -107,6 +111,7 @@ footer{
 .wrapper{
   margin: 0 auto;
   width: 1000px;
+  display: flex;
   }
 
 body{
