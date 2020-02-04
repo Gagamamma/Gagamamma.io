@@ -1,8 +1,8 @@
-$("#button2").click(function(){
+$("#bkkButton").click(function(){
 
 
   $('html, body').animate({
-        scrollTop: $("#box2").offset().top
+        scrollTop: $("#bkörkort").offset().top
     }, 4000);
 
 
