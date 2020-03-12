@@ -124,11 +124,11 @@ padding:40px;
 
 footer{
   background-color: #fff;
-  height: 100px;
+  height: 750px;
   width: 100%;
   padding-top: 20px;
   text-align: center;
-  font-family: 'Sen', sans-serif;
+
   }
 
 .wrapper{
@@ -148,3 +148,37 @@ body{
     height: 200px;
     }
   }
+
+
+  #slider{
+  height: 200px;
+  width: 200px;
+  margin-left: 42%;
+margin-top: 50px;
+
+  }
+
+  #imgs{
+
+  height: 200px;
+  width: 609px;
+  position: relative;
+
+  }
+  button{
+    display: none;
+    margin-top: 10px;
+    width: 70px;
+    height: 30px;
+    margin-left: 47%;
+    }
+
+    iframe{
+
+
+    }
+
+      #omoss{
+  font-family: 'Sen', sans-serif;
+
+      }
