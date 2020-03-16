@@ -95,7 +95,7 @@ nav{
 
 main{
   background-color: #669999;
-  height: 2000px;
+  height: 1700px;
   width: 100%;
   padding-top: 100px;
   font-family: 'Sen', sans-serif;
@@ -122,9 +122,10 @@ padding:40px;
   padding: 40px;
 }
 
+
 footer{
   background-color: #fff;
-  height: 800px;
+  height: 900px;
   width: 100%;
   padding-top: 20px;
   text-align: center;
@@ -142,6 +143,29 @@ body{
   background-color: #e7e8d9
   }
 
+  #twitterBild{
+    margin-left: 50%;
+  }
+
+  .sprite {
+    background-image: url(sprites.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-logga3 {
+    width: 135px;
+    height: 95px;
+    background-position: -5px -5px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -150px -5px;
+}
+
+
 
 
 
@@ -150,6 +174,13 @@ body{
   width: 200px;
   margin-left: 42%;
 margin-top: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  nav{
+  width: 100%;
+  height: 200px;
+  }
 
   }
 
@@ -183,9 +214,5 @@ margin-top: 20px;
           font-family: 'Sen', sans-serif;
       }
 
-      @media only screen and (max-width: 800px) {
-        nav{
-        width: 100%;
-        height: 200px;
-        }
+
       }
