@@ -13,7 +13,6 @@ nav{
   padding-top: 20px;
   display: flex;
   font-family: 'Sen', sans-serif;
-
   }
 
   #bkkButton{
@@ -30,36 +29,21 @@ nav{
 
   .bild{
 
-}
+    display: fixed;
+    margin-left: 20px;
+  }
 
-#bkkButton{
-  display: none;
-}
-
-#amkkButton{
-  display: none;
-}
-
-#omossButton{
-  display: none;
-}
-
-
-.bild{
-  display: fixed;
-  margin-left: 20px;
-}
-
-.länkar{
+  .länkar{
     margin-left: 50px;
     display: flex;
     margin-top: 20px;
-}
 
-a{
-  color:black;
-  text-decoration: none;
-}
+  }
+
+  a{
+    color:black;
+    text-decoration: none;
+  }
 
 
 main{
@@ -68,7 +52,6 @@ main{
   width: 100%;
   padding-top: 100px;
   font-family: 'Sen', sans-serif;
-
   }
 
   .mellanrum{
@@ -76,23 +59,15 @@ main{
 height: 5% auto;
 width: 100%;
   }
-=======
-}
-
-.mellanrum{
-  height: 5% auto;
-  width: 100%;
-}
-
 
 #bkörkort{
-  padding:40px;
-}
+padding:40px;
+  }
 
 #homepage{
-  padding:40px;
-}
 
+  padding:40px;
+  }
 #amkörkort{
   padding: 40px;
 }
@@ -104,41 +79,40 @@ footer{
   padding-top: 20px;
   text-align: center;
 
-}
+  }
 
 .wrapper{
   margin: 0 auto;
   width: 1000px;
   display: flex;
-}
+  }
 
 body{
   margin: 0 0 0 0;
   background-color: #e7e8d9
-}
+  }
 
-#twitterBild{
-  margin-left: 50%;
-}
+  #twitterBild{
+    margin-left: 50%;
+  }
 
-.sprite {
-  background-image: url(sprites.png);
-  background-repeat: no-repeat;
-  display: block;
+  .sprite {
+    background-image: url(sprites.png);
+    background-repeat: no-repeat;
+    display: block;
 }
 
 .sprite-logga3 {
-  width: 135px;
-  height: 95px;
-  background-position: -5px -5px;
+    width: 135px;
+    height: 95px;
+    background-position: -5px -5px;
 }
 
 .sprite-twitter {
-  width: 30px;
-  height: 30px;
-  background-position: -150px -5px;
+    width: 30px;
+    height: 30px;
+    background-position: -150px -5px;
 }
-
 
   #slider{
   height: 200px;
@@ -148,21 +122,10 @@ margin-top: 20px;
 }
 
   #imgs{
-=======
-#slider{
-  height: 200px;
-  width: 200px;
-  margin-left: 42%;
-  margin-top: 20px;
-  }
 
-
-#imgs{
   height: 200px;
   width: 609px;
   position: relative;
-}
-
 
   }
   button{
@@ -171,7 +134,7 @@ margin-top: 20px;
     width: 80px;
     height: 40px;
     margin-left: 47%;
-      font-family: 'Sen', sans-serif;
+    font-family: 'Sen', sans-serif;
     }
 
     #test{
@@ -179,36 +142,27 @@ margin-top: 20px;
     }
 
       #omoss{
+        font-family: 'Sen', sans-serif;
 
-button{
-  display: none;
-  margin-top: 10px;
-  width: 70px;
-  height: 30px;
-  margin-left: 47%;
-  font-family: 'Sen', sans-serif;
-}
+      }
 
-#hideMenu{
-  display: flex;
-}
+      h1{
+          font-family: 'Sen', sans-serif;
+      }
 
-#omoss{
-  font-family: 'Sen', sans-serif;
-}
 
-span.whiteLink{
-  color: white;
-}
+      @media only screen and (max-width: 1000px) {
 
-h1{
-  font-family: 'Sen', sans-serif;
-  }
+        .wrapper{
+         width: 100%;
+        }
+      }
 
-@media only screen and (max-width: 1000px) {
-  .wrapper{
-   width: 100%;
-}}
+      @media only screen and (max-width: 800px) {
+
+        #test{
+        display:none;
+        }
 
         footer{
 
@@ -222,52 +176,35 @@ h1{
         main{
          height: 1800px ;
         }
-
-
-
       }
 
       @media only screen and (max-width: 600px) {
-
         main{
          height: 1850px ;
         }
 
       footer{
-
         height: 1000px;
       }
 
       }
 
       @media only screen and (max-width: 550px) {
-
         main{
          height: 2000px ;
         }
 
-      footer{
-
-        height: 1000px;
+        footer{
+          height: 1000px;
       }
-
-      }
+        }
 
       @media only screen and (max-width: 530px) {
-
         main{
          height: 2050px ;
         }
 
       footer{
-
         height: 1000px;
-      }
-
-      }
-
-@media only screen and (max-width: 800px) {
-  #hideMenu{
-  display:none;
-}}
-
+           }
+        }
