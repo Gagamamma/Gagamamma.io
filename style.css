@@ -134,7 +134,7 @@ margin-top: 20px;
     width: 80px;
     height: 40px;
     margin-left: 47%;
-      font-family: 'Sen', sans-serif;
+    font-family: 'Sen', sans-serif;
     }
 
     #test{
@@ -142,7 +142,7 @@ margin-top: 20px;
     }
 
       #omoss{
-  font-family: 'Sen', sans-serif;
+        font-family: 'Sen', sans-serif;
 
       }
 
@@ -176,46 +176,35 @@ margin-top: 20px;
         main{
          height: 1800px ;
         }
-
-
-
       }
 
       @media only screen and (max-width: 600px) {
-
         main{
          height: 1850px ;
         }
 
       footer{
-
         height: 1000px;
       }
 
       }
 
       @media only screen and (max-width: 550px) {
-
         main{
          height: 2000px ;
         }
 
-      footer{
-
-        height: 1000px;
+        footer{
+          height: 1000px;
       }
-
-      }
+        }
 
       @media only screen and (max-width: 530px) {
-
         main{
          height: 2050px ;
         }
 
       footer{
-
         height: 1000px;
-      }
-
-      }
+          }
+        }
