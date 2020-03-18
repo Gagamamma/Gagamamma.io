@@ -27,12 +27,12 @@ nav{
 }
 
 .bild{
-  display: fixed;
+
   margin-left: 20px;
 }
 
-.länkar{
-    margin-left: 50px;
+.lankar{
+  margin-left: 50px;
     display: flex;
     margin-top: 20px;
 }
@@ -52,11 +52,11 @@ main{
 }
 
 .mellanrum{
-  height: 5% auto;
+  height: 5%;
   width: 100%;
 }
 
-#bkörkort{
+#bkorkort{
   padding:40px;
 }
 
@@ -64,7 +64,7 @@ main{
   padding:40px;
 }
 
-#amkörkort{
+#amkorkort{
   padding: 40px;
 }
 
