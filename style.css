@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -12,6 +13,23 @@ nav{
   padding-top: 20px;
   display: flex;
   font-family: 'Sen', sans-serif;
+
+  }
+
+  #bkkButton{
+    display: none;
+  }
+
+  #amkkButton{
+    display: none;
+  }
+
+  #omossButton{
+    display: none;
+  }
+
+  .bild{
+
 }
 
 #bkkButton{
@@ -25,6 +43,7 @@ nav{
 #omossButton{
   display: none;
 }
+
 
 .bild{
   display: fixed;
@@ -49,12 +68,22 @@ main{
   width: 100%;
   padding-top: 100px;
   font-family: 'Sen', sans-serif;
+
+  }
+
+  .mellanrum{
+
+height: 5% auto;
+width: 100%;
+  }
+=======
 }
 
 .mellanrum{
   height: 5% auto;
   width: 100%;
 }
+
 
 #bkörkort{
   padding:40px;
@@ -68,10 +97,9 @@ main{
   padding: 40px;
 }
 
-
 footer{
   background-color: #fff;
-  height: 900px;
+  height: 920px;
   width: 100%;
   padding-top: 20px;
   text-align: center;
@@ -111,6 +139,16 @@ body{
   background-position: -150px -5px;
 }
 
+
+  #slider{
+  height: 200px;
+  width: 200px;
+  margin-left: 42%;
+margin-top: 20px;
+}
+
+  #imgs{
+=======
 #slider{
   height: 200px;
   width: 200px;
@@ -118,11 +156,29 @@ body{
   margin-top: 20px;
   }
 
+
 #imgs{
   height: 200px;
   width: 609px;
   position: relative;
 }
+
+
+  }
+  button{
+    display: none;
+    margin-top: 10px;
+    width: 80px;
+    height: 40px;
+    margin-left: 47%;
+      font-family: 'Sen', sans-serif;
+    }
+
+    #test{
+      display: flex;
+    }
+
+      #omoss{
 
 button{
   display: none;
@@ -154,7 +210,64 @@ h1{
    width: 100%;
 }}
 
+        footer{
+
+          height: 950px;
+        }
+
+      }
+
+      @media only screen and (max-width: 700px) {
+
+        main{
+         height: 1800px ;
+        }
+
+
+
+      }
+
+      @media only screen and (max-width: 600px) {
+
+        main{
+         height: 1850px ;
+        }
+
+      footer{
+
+        height: 1000px;
+      }
+
+      }
+
+      @media only screen and (max-width: 550px) {
+
+        main{
+         height: 2000px ;
+        }
+
+      footer{
+
+        height: 1000px;
+      }
+
+      }
+
+      @media only screen and (max-width: 530px) {
+
+        main{
+         height: 2050px ;
+        }
+
+      footer{
+
+        height: 1000px;
+      }
+
+      }
+
 @media only screen and (max-width: 800px) {
   #hideMenu{
   display:none;
 }}
+
