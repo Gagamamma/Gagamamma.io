@@ -87,9 +87,9 @@ nav{
 
   }
 
-  a{
-    color:black;
-    text-decoration: none;
+a{
+  color:black;
+  text-decoration: none;
   }
 
 
@@ -101,13 +101,9 @@ main{
   font-family: 'Sen', sans-serif;
   }
 
-  .mellanrum{
-
-height: 5% auto;
-width: 100%;
-
-
-
+.mellanrum{
+  height: 5% auto;
+  width: 100%;
   }
 
 #bkörkort{
@@ -197,7 +193,7 @@ margin-top: 20px;
     }
 
     #test{
-      display: flex;
+    display: flex;
     }
 
       #omoss{
@@ -205,22 +201,22 @@ margin-top: 20px;
 
       }
 
-      h1{
-          font-family: 'Sen', sans-serif;
-      }
+span.whiteLink{
+  color: white;
+}
 
+h1{
+  font-family: 'Sen', sans-serif;
+  }
 
-      @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 
-        .wrapper{
-         width: 100%;
-        }
-      }
+  .wrapper{
+   width: 100%;
+  }}
 
-      @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
 
-        #test{
-        display:none;
-        }
-
-      }
+  #test{
+  display:none;
+  }}
